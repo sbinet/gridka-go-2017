@@ -42,7 +42,7 @@ Go is a new, general-purpose programming language.
 
 * Install Go
 
-.link http://golang.org/doc/install
+.link https://golang.org/doc/install
 
 - Install from binary distributions or build from source
 - 32- and 64-bit x86 and ARM processors
@@ -556,7 +556,7 @@ Let's create a new `rot13` package:
 
 - `rot13` will implement the Caesar cipher ("rotate by 13 places"):
 
-.link http://en.wikipedia.org/wiki/ROT13
+.link https://en.wikipedia.org/wiki/ROT13
 
 
 * ex-04 - rot13 - II
@@ -705,7 +705,7 @@ Algorithm:
 
 Let's create a new program called `indexer`.
 
-Initial code in: [[http://github.com/sbinet/gridka-go-2016/blob/master/cmd/indexer/main.go][github.com/sbinet/gridka-go-2016/cmd/indexer]]
+Initial code in: [[https://github.com/sbinet/gridka-go-2016/blob/master/cmd/indexer/main.go][github.com/sbinet/gridka-go-2016/cmd/indexer]]
 
 * Processing a Go source file
 
@@ -894,11 +894,13 @@ For more informations: [[https://golang.org/cmd/cgo/][cmd/cgo]]
 
 Most of this tutorial has been extracted or adapted from:
 
-.link http://talks.golang.org/2012/tutorial.slide
+.link https://talks.golang.org/2012/tutorial.slide
 
-.link http://talks.golang.org/2014/taste.slide
+.link https://talks.golang.org/2014/taste.slide
 
-.link http://tour.golang.org
+.link https://tour.golang.org
+
+.link https://talks.godoc.org/github.com/sbinet/whispering-gophers/talk.slide
 
 
 * Extra

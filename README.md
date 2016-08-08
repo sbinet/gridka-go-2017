@@ -2,9 +2,9 @@ gridka-go-2016
 ===================
 
 `gridka-go-2016` is a simple repository holding sources for the `Go`
-hands-on session of the [GridKa School](http://gridka-school.scc.kit.edu/2016/).
+hands-on session of the [GridKa School](https://gridka-school.scc.kit.edu/2016/).
 
-The slides are [here](http://talks.godoc.org/github.com/sbinet/gridka-go-2016/talk.slide).
+The slides are [here](https://talks.godoc.org/github.com/sbinet/gridka-go-2016/talk.slide).
 
 ## Bootstrapping the work environment
 
@@ -122,15 +122,15 @@ The `Go` programming language is quite new (released in 2009) but
 ships already with quite a fair amount of documentation.
 Here are a few pointers:
 
-- http://golang.org/doc/code.html
-- http://tour.golang.org
-- http://golang.org/doc/effective_go.html
+- https://golang.org/doc/code.html
+- https://tour.golang.org
+- https://golang.org/doc/effective_go.html
 - http://dave.cheney.net/resources-for-new-go-programmers
-- http://gobyexample.com
+- https://gobyexample.com
 
 For more advanced topics:
 
-- http://talks.golang.org
-- http://blog.golang.org
+- https://talks.golang.org
+- https://blog.golang.org
 - https://groups.google.com/d/forum/golang-nuts (`Go` community forum)
 - the internets. typical queries are `go something` or `golang something`

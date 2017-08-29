@@ -1,10 +1,10 @@
-gridka-go-2016
+gridka-go-2017
 ===================
 
-`gridka-go-2016` is a simple repository holding sources for the `Go`
-hands-on session of the [GridKa School](https://gridka-school.scc.kit.edu/2016/).
+`gridka-go-2017` is a simple repository holding sources for the `Go`
+hands-on session of the [GridKa School](https://gridka-school.scc.kit.edu/2017/).
 
-The slides are [here](https://talks.godoc.org/github.com/sbinet/gridka-go-2016/talk.slide).
+The slides are [here](https://talks.godoc.org/github.com/sbinet/gridka-go-2017/talk.slide).
 
 ## Bootstrapping the work environment
 
@@ -80,12 +80,12 @@ For this part, you'll need the following tools installed to actually retrieve th
 Without further ado:
 
 ```sh
-$ go get -u -v github.com/sbinet/gridka-go-2016/cmd/gridka-hello
-github.com/sbinet/gridka-go-2016 (download)
+$ go get -u -v github.com/sbinet/gridka-go-2017/cmd/gridka-hello
+github.com/sbinet/gridka-go-2017 (download)
 ```
 
 `go get` downloaded (cloned, in `git` speak) the whole
-`github.com/sbinet/gridka-go-2016` repository (under `$GOPATH/src`) and
+`github.com/sbinet/gridka-go-2017` repository (under `$GOPATH/src`) and
 compiled the `gridka-hello` command.
 As the compilation was successful, it also installed the `gridka-hello`
 command under `$GOPATH/bin`.
@@ -94,7 +94,7 @@ The `gridka-hello` command is now available from your shell:
 
 ```sh
 $ gridka-hello
-Hello GridKa-Go-2016!
+Hello GridKa-Go-2017!
 
 $ gridka-hello you
 Hello you!

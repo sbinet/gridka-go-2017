@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	who := "GridKa-Go-2016"
+	who := "GridKa-Go-2017"
 	if len(os.Args) > 1 {
 		who = os.Args[1]
 	}

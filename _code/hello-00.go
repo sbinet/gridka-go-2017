@@ -1,5 +1,5 @@
 package main
 
 func main() {
-	println("Hello GridKa-2016")
+	println("Hello GridKa-2017")
 }

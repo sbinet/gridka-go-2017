@@ -1,5 +1,5 @@
 Introduction to Go
-GridKa Go Workshop, 2016-09-01
+GridKa Go Workshop, 2017-08-31
 
 Sébastien Binet
 CNRS/IN2P3/LPC
@@ -28,15 +28,16 @@ Go is a new, general-purpose programming language.
 
 - Project starts at Google in 2007 (by Griesemer, Pike, Thompson)
 - Open source release in November 2009
-- More than 250 contributors join the project
+- More than 890 contributors join the project
 - Version 1.0 release in March 2012
 - Version 1.1 release in May 2013
-- Version 1.2 release in December 2013
-- Version 1.3 release in June 2014
-- Version 1.4 release in December 2014 
-- Version 1.5 release in August 2015
+- _[...]_
 - Version 1.6 release in February 2016
 - Version 1.7 release in August 2016
+- Version 1.8 release in February 2017
+- Version 1.9 release in August 2017
+
+.link https://golang.org
 
 * Getting started
 
@@ -66,7 +67,7 @@ Put this code into `hello.go`:
 Run the program:
 
   $ go run hello.go
-  Hello GridKa-2016
+  Hello GridKa-2017
 
 
 * The go tool
@@ -154,7 +155,7 @@ Now you can build and install the `hello` program with the `go` tool:
 This builds an executable named `hello`, and installs it under the `bin` directory of your workspace.
 
   $ $GOPATH/bin/hello
-  Hello GridKa-2016
+  Hello GridKa-2017
 
 * Go - first concepts
 
@@ -648,7 +649,7 @@ A typical example is the `compress/gzip.NewReader` function which takes an `io.R
 
 .code _code/gz-r.go /START OMIT/,/END OMIT/
 
- $ cat $GOPATH/src/github.com/sbinet/gridka-go-2016/testdata/data.gz | my-gunzip
+ $ cat $GOPATH/src/github.com/sbinet/gridka-go-2017/testdata/data.gz | my-gunzip
 
 * ex-04 - V
 
@@ -705,7 +706,7 @@ Algorithm:
 
 Let's create a new program called `indexer`.
 
-Initial code in: [[https://github.com/sbinet/gridka-go-2016/blob/master/cmd/indexer/main.go][github.com/sbinet/gridka-go-2016/cmd/indexer]]
+Initial code in: [[https://github.com/sbinet/gridka-go-2017/blob/master/cmd/indexer/main.go][github.com/sbinet/gridka-go-2017/cmd/indexer]]
 
 * Processing a Go source file
 
@@ -1386,7 +1387,7 @@ Most of this tutorial has been extracted or adapted from:
 
 Let's create a new `extra-01` program which will open a text file and count words in it:
 
-  $ extra-01 $GOPATH/src/github.com/sbinet/gridka-go-2016/testdata/lorem-ipsum.txt
+  $ extra-01 $GOPATH/src/github.com/sbinet/gridka-go-2017/testdata/lorem-ipsum.txt
   69
 
 *Hint:* `godoc` `os` `Open`

@@ -977,7 +977,7 @@ Many functions in Go return an `error` value.
 These values are your friends; they will tell you where you went wrong.
 Ignore them at your peril!
 
-Use [[http://golang.org/pkg/log/#Println][`log.Println`]] to print log messages, and [[http://golang.org/pkg/log/#Fatal][`log.Fatal`]] to print a message and exit the program printing a stack trace.
+Use [[https://golang.org/pkg/log/#Println][`log.Println`]] to print log messages, and [[https://golang.org/pkg/log/#Fatal][`log.Fatal`]] to print a message and exit the program printing a stack trace.
 
 .play _code/log.go /func main/,$
 
@@ -1057,8 +1057,8 @@ Write a new program:
 
 * Listen/Accept/Serve (1/2)
 
-The [[http://golang.org/pkg/net/#Listen][`net.Listen`]] function binds to a socket and returns a [[http://golang.org/pkg/net/#Listener][`net.Listener`]].
-The [[http://golang.org/pkg/net/#Listener][`net.Listener`]] provides an `Accept` method that blocks until a client connects to the socket, and then returns a [[http://golang.org/pkg/net/#Conn][`net.Conn`]].
+The [[https://golang.org/pkg/net/#Listen][`net.Listen`]] function binds to a socket and returns a [[https://golang.org/pkg/net/#Listener][`net.Listener`]].
+The [[https://golang.org/pkg/net/#Listener][`net.Listener`]] provides an `Accept` method that blocks until a client connects to the socket, and then returns a [[https://golang.org/pkg/net/#Conn][`net.Conn`]].
 
 This server reads data from a connection and echoes it back:
 
@@ -1136,7 +1136,7 @@ To complete our program, we need to find that IP.
 
 * Obtaining the listener address (2/2)
 
-The [[http://godoc.org/github.com/sbinet/whispering-gophers/util][`"github.com/sbinet/whispering-gophers/util"`]] package provides a `Listen` function that binds to a random port on the first available public interface.
+The [[https://godoc.org/github.com/sbinet/whispering-gophers/util][`"github.com/sbinet/whispering-gophers/util"`]] package provides a `Listen` function that binds to a random port on the first available public interface.
 
 .play _code/listen-addr-util.go /import/,$
 
@@ -1267,7 +1267,7 @@ Now, when constructing `Message` values, populate the `ID` field with a random s
 
 * Generating random strings
 
-Use the [[http://godoc.org/github.com/sbinet/whispering-gophers/util/#RandomID][`util.RandomID`]] function to generate a random string.
+Use the [[https://godoc.org/github.com/sbinet/whispering-gophers/util/#RandomID][`util.RandomID`]] function to generate a random string.
 
 .play _code/randomid.go
 

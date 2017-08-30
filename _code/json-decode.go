@@ -13,8 +13,8 @@ type Site struct {
 }
 
 const stream = `
-	{"Title": "The Go Programming Language", "URL": "http://golang.org"}
-	{"Title": "Google", "URL": "http://google.com"}
+	{"Title": "The Go Programming Language", "URL": "https://golang.org"}
+	{"Title": "Google", "URL": "https://google.com"}
 `
 
 func main() {

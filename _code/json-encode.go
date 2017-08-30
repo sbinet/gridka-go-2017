@@ -12,8 +12,8 @@ type Site struct {
 }
 
 var sites = []Site{
-	{"The Go Programming Language", "http://golang.org"},
-	{"Google", "http://google.com"},
+	{"The Go Programming Language", "https://golang.org"},
+	{"Google", "https://google.com"},
 }
 
 func main() {
